@@ -6,6 +6,7 @@ Affective computing is a study that used for the behavioural analysis of a human
 ### Electrocardiogram (ECG)
 
 An ECG signal is the measure of the electrical activity of the heart in different phases and perspective based on the situation and configuration. The ECG signal is measured using the help of electrodes places on the skin. These electrodes detect the small electrical changes that are a  consequence of cardiac muscle depolarization followed by repolarization during each cardiac cycle (heartbeat).
+
 ![Amplitude vs time graph of a segment of ECG signal](./assets/ecg_signal.png)
 
 There are three main components to an ECG: the P wave, which represents the  depolarization of the atria; the QRS complex, which represents the depolarization of the ventricles;  and the T wave, which represents the repolarization of the ventricles.
@@ -24,7 +25,7 @@ Based on the  valence and arousal scale, the categories of emotions can be segme
 ### Methodology
 Process involves pre-processing of ECG signal, R peak detection, feature extraction, feature selection, classification and validation.
 
-![Methodology](./assets/methodology.jpg)
+![Methodology](./assets/methodology.png)
 
 ### Pre-processing
 It is necessary to remove noises like baseline wander, powerline interferences etc before any further processing. 
